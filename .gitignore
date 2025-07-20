@@ -1,0 +1,47 @@
+# C语言项目 .gitignore
+
+# 编译输出目录
+build/
+*.exe
+*.out
+*.app
+
+# 目标文件
+*.o
+*.obj
+
+# 库文件
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 备份文件
+*.bak
+*.backup 
